@@ -2,3 +2,19 @@
     width: 100px;
     height: 100px;
 }
+
+.bannerImg {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    width: 18rem;
+}
+
+.tarjeta{
+    width: 400px;
+    border: solid black;
+    align-items: center;
+    padding: 5px;
+}

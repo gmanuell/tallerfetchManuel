@@ -23,7 +23,7 @@ function especiesInvasoras(especies) {
         <td>${especie.impact}</td>
         <td>${especie.manage}</td>
         <td>${especie.riskLevel}</td>
-        <td> <img class ="h-5 w-5" src='${especie.urlImage}' alt='${especie.name}'>}</td>
+        <td> <img class ="imgEspecies" src='${especie.urlImage}' alt='${especie.name}'>}</td>
     </tr>
     `).join("");
 }

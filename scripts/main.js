@@ -1,4 +1,4 @@
-// import { cargarDepartamentos } from "./home.js";
+import { cargarDepartamentos } from "./home.js";
 // import {cargarDetallesDepartamentos} from "./detalles.js";
 import { cargarEspeciesInvasoras } from "./especiesInvasoras.js";
 
@@ -15,4 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //     }
 if (path.endsWith('especies-invasoras.html') || path === '/') {
              cargarEspeciesInvasoras();
-}});
+} else if (path.endsWith('home.html') || path === '/') {
+            cargarDepartamentos();
+}
+});
