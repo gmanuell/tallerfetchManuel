@@ -156,7 +156,7 @@ categories.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
 });
 
 searchInput.addEventListener('input', filterEvents);
-searchButton.addEventListener('click', filterEvents);
+
 
 
 loadCitiesAndAreas();
